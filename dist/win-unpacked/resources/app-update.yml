@@ -1,0 +1,4 @@
+owner: anveshbabu
+repo: electron-auto-update
+provider: github
+updaterCacheDirName: auto-updater-updater

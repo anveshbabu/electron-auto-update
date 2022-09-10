@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: auto-updater-Setup-1.0.0.exe
+    sha512: IK67dHk93jr5WTeUl8OrggdTAp8u3dxGR9RQGTZ1/M8yZIDmrducae5bdmIoiJT8S2egbZnYqEh1oPbIry/LEQ==
+    size: 67811380
+path: auto-updater-Setup-1.0.0.exe
+sha512: IK67dHk93jr5WTeUl8OrggdTAp8u3dxGR9RQGTZ1/M8yZIDmrducae5bdmIoiJT8S2egbZnYqEh1oPbIry/LEQ==
+releaseDate: '2022-09-10T09:05:39.230Z'

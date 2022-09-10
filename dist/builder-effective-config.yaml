@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+publish:
+  - provider: github
+    owner: anveshbabu
+    repo: electron-auto-update
+files: []
+electronVersion: 20.1.3
