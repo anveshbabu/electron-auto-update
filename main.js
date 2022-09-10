@@ -2,6 +2,7 @@ const { app, BrowserWindow } = require('electron');
 const { autoUpdater } = require("electron-updater");
 const log = require('electron-log');
 log.transports.file.resolvePath = () => path.join('/home/doodleblue/Anvesh/projects/electron js/auto-updater/', 'logs/main.log');
+log.log('Application version'+app.getVersion())
 function createWindow () {
     const win = new BrowserWindow({
       width: 800,
@@ -40,8 +41,9 @@ autoUpdater.on('checking-for-update',()=>{
 
 });
 
-autoUpdater.on('download-progress',()=>{
+autoUpdater.on('download-progress',(progress)=>{
     log.info('download-progress')
+    log.info('progress track',progress)
 
 });
 
